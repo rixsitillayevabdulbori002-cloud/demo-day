@@ -97,7 +97,9 @@ const CartPage = () => {
                   ${getTotalPrice().toLocaleString()}
                 </span>
               </div>
-              <button className="w-full bg-linear-to-r from-blue-600 to-purple-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:shadow-2xl transition flex items-center justify-center">
+              <button onClick={() => {
+                alert('Order placed successfully!');
+              }} className="w-full bg-linear-to-r from-blue-600 to-purple-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:shadow-2xl transition flex items-center justify-center">
                 <span>Оформить заказ</span>
                 <ChevronRight className="w-6 h-6 ml-2" />
               </button>
