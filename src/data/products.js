@@ -56,7 +56,7 @@ export const PRODUCTS = [
     name: 'Google Pixel 8 Pro',
     brand: 'Google',
     basePrice: 999,
-    image: 'public/SGOOPIX8P256GBUNLB_l.webp',
+    image: '/SGOOPIX8P256GBUNLB_l.webp',
     rating: 4.7,
     reviews: 1456,
     targetAudience: 'Для фотографов',
